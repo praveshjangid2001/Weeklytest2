@@ -1,0 +1,92 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+}
+.logo {
+    width: 50%;
+}
+.info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.info>div {
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+#abt-sub {
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    display: none;
+}
+.section1 {
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+.description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.PandL {
+    width: 50%;
+}
+.section2 {
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 button {
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+footer {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+footer div {
+    text-align: center;
+    color: wheat;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+footer div {
+    text-align: center;
+    color: wheat;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+style {
+    display: none;
+}
